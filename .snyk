@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - '@sourcegraph/codeintellify > lodash':
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphql-schema-linter > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - javascript-typescript-langserver > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - '@sourcegraph/codeintellify > @sourcegraph/event-positions > lodash':
+        patched: '2020-05-01T04:01:53.491Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-05-01T04:01:53.491Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T04:01:53.491Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-config > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T04:01:53.491Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - javascript-typescript-langserver > @commitlint/cli > @commitlint/lint > @commitlint/parse > conventional-commits-parser > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-05-01T04:01:53.491Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-parser > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - graphiql > codemirror-graphql > graphql-language-service-interface > graphql-language-service-utils > graphql-language-service-types > graphql-config > graphql-import > lodash:
+        patched: '2020-05-01T04:01:53.491Z'
+    - chokidar-cli > lodash:
+        patched: '2020-05-01T04:01:53.491Z'

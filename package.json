@@ -35,7 +35,9 @@
     "stylelint": "stylelint --quiet 'src/**/*.scss'",
     "stylelint-compact": "yarn run stylelint --custom-formatter ./node_modules/stylelint-formatter-compact/index.js",
     "bundlesize": "GITHUB_TOKEN= bundlesize",
-    "browserslist": "browserslist"
+    "browserslist": "browserslist",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "bundlesize": [
     {
@@ -125,7 +127,8 @@
     "uuid": "^3.2.1",
     "vscode-languageserver-types": "^3.12.0",
     "webpack-serve": "^2.0.2",
-    "whatwg-url": "^7.0.0"
+    "whatwg-url": "^7.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.0.0",
@@ -208,5 +211,6 @@
     "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.17.2",
     "worker-loader": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
